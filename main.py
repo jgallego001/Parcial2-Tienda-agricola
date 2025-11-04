@@ -5,7 +5,7 @@ from modelo.Antibiotico import Antibiotico
 from modelo.Factura import Factura
 
 # Crear cliente
-cliente1 = Cliente("Juan Esteban", "123456")
+cliente1 = Cliente("Juan Esteban Gallego", "1085717895")
 
 # Crear productos
 plaga = Plaguicida("ICA001", "Plagox", 15, 30000, 20)

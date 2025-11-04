@@ -11,7 +11,6 @@ class Factura:
     def calcular_valor_total(self):
         total = 0
         for articulo in self.articulos:
-            # Todos los productos tienen un atributo valor o precio
             if hasattr(articulo, 'valor'):
                 total += articulo.valor
             elif hasattr(articulo, 'precio'):
