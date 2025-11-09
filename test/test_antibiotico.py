@@ -7,7 +7,7 @@ class TestAntibiotico(unittest.TestCase):
         self.assertEqual(a.nombre, "Antibov")
         self.assertEqual(a.dosis, "500mg")
         self.assertEqual(a.tipo_de_animal, "Bovinos")
-        self.assertEqual(a.precio, 60000)
+        self.assertEqual(a.valor, 60000)
 
     def test_str(self):
         a = Antibiotico("Antiporc", "300mg", "Porcinos", 45000)
